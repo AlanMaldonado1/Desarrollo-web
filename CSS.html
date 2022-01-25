@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cursoweb.com.es/images/icono.png">
+    <title>Desarrollo WEB</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>X-TECH <span>CSS</span></h1>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#footer">Conoceme</a></li>
+                        <li><a href="#" id="contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container-cover">
+        <div class="container-info">
+            <h2>Prueba</h2>
+        </div>
+    </div>
+
+    <div class="container-content">
+        <article>
+            <h2>Que es CSS?</h2>
+            <p>El CSS (Cascading Style Sheets), en español Hojas de Estilo en Cascada, fue desarrollado por W3C en 1996. Se le denomina Hojas de Estilos en Cascada porque las características se aplican de arriba a abajo mediante reglas que poseen un esquema prioritario.</p>
+            <p>Esta especificación es un lenguaje de diseño gráfico que se escribe dentro del código HTML del sitio web y, permite crear páginas de una manera más exacta y aplicarles estilos (colores, márgenes, formas, tipos de letras, etc.) por lo que se tiene mayor control de los resultados finales.</p>
+            <h2>Importancia del CSS</h2>
+            <p>El CSS es un lenguaje para dar forma y diseño a documentos estructurados, dicho de otra forma, la gran mayoría del software que utilizamos en la red de redes lo utiliza: Páginas web, tiendas virtuales, foros, aplicaciones, tienen estilos css, ya que es el que le da una apariencia visual atractiva a la pagina o aplicacion web. </p>
+             <img src="https://disenowebakus.net/imagenes/articulos/aprender-css-hojas-de-estilo-en-cascada.jpg" alt="" class="img-article">
+             <h2>Historia del CSS.</h2>
+            <p>Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor del año 1970. Desde la creación de SGML, se observó la necesidad de definir un mecanismo que permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.</p>
+            <p>El gran impulso de los lenguajes de hojas de estilos se produjo con el boom de Internet y el crecimiento exponencial del lenguaje HTML para la creación de documentos electrónicos. La guerra de navegadores y la falta de un estándar para la definición de los estilos dificultaban la creación de documentos con la misma apariencia en diferentes navegadores.</p>
+            <p>El organismo W3C (World Wide Web Consortium), encargado de crear todos los estándares relacionados con la web, propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas. Las dos propuestas que se tuvieron en cuenta fueron la CHSS (Cascading HTML Style Sheets) y la SSP (Stream-based Style Sheet Proposal). La propuesta CHSS fue realizada por Håkon Wium Lie y SSP fue propuesto por Bert Bos. Entre finales de 1994 y 1995 Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada propuesta y lo llamaron CSS (Cascading Style Sheets).</p>
+            <p>A principios de 1997, el W3C decide separar los trabajos del grupo de HTML en tres secciones: el grupo de trabajo de HTML, el grupo de trabajo de DOM y el grupo de trabajo de CSS.</p>
+            <p>La adopción de CSS por parte de los navegadores ha requerido un largo periodo de tiempo. El mismo año que se publicó CSS 1, Microsoft lanzaba su navegador Internet Explorer 3.0, que disponía de un soporte bastante reducido de CSS. El primer navegador con soporte completo de CSS 1 fue la versión para Mac de Internet Explorer 5, que se publicó en el año 2000. Por el momento, ningún navegador tiene soporte completo de CSS 2.1.</p>
+
+            <h2>Principales propiedades CSS.</h2>
+            <ul>
+                <li><p><strong>Font-family: </strong> Define la familia tipográfica. Es conveniente poner una lista de dos o tres tipografías separadas por coma, porque si el usuario no tiene instalada la tipografía que nosostros elegimos, el navegador opta por mostrar la siguiente que debería ser una similar, si tampoco la tiene instalada, mostrará la tipografía por defecto.</p></li>
+                <li><p><strong>Font-size: </strong> Define el tamaño de la fuente y el valor se puede escribir en pixels o en ems. En este momento se recomienda usar ems. Los dos son valores relativos, el pixel es un valor relativo a la resolución de la pantalla, pero el em es relativo al tamaño de la fuente definida por el usuario. Si el usuario no cambió la configuración, el valor por defecto de los textos en todos los navegadores es de 16px. Entonces 1em = 16px.</p></li>
+                <li><p><strong>Background: </strong> Define los fondos de un objeto. El fondo puede ser una imagen o un color. El color puede ser pleno o degradado. La imagen se puede repetir formando una trama (es lo que ocurre por defecto) o se puede especificar que no repita y que se coloque en determinada posición.</p></li>
+                <li><p><strong>Padding: </strong> Es la distancia desde el borde de un elemento hasta su contenido.</p></li>
+                <li><p><strong>Marggin: </strong> Es la distancia entre un elemento y otro (desde el borde de un elemento hacia afuera).
+
+                </p></li>
+            </ul>
+            <h2>Selectores basicos CSS.</h2>
+            <p>En CSS los selectores se utilizan para delimitar los elementos HTML de nuestra página web a los que queremos aplicar estilo. Hay una amplia variedad de selectores CSS, lo que permite una gran precisión a la hora de seleccionar elementos a los que aplicar estilo. En este artículo y sus subartículos veremos con detalle todos los tipos y el modo como funcionan.</p>
+            <ul>
+                <li><p><strong>* :</strong> Selecciona todos los elementos del Documento.</p></li>
+                <li><p><strong>Etiqueta :</strong> Selecciona la etiqueta seleccionada.</p></li>
+                <li><p><strong>.class :</strong> Selección de los elementos con la clase .class.</p></li>
+                <li><p><strong>#id :</strong> Selección de los elementos con el id. #id.</p></li>
+            </ul>
+
+        </article>
+
+        <div class="container-aside">
+            <aside>
+                <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" alt="">
+                <h2>HyperText Markup Language</h2>
+                <p>HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web.</p>
+                <a href="HTML.html"><button>Leer</button></a>
+            </aside>
+            <aside>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/640px-CSS3_logo_and_wordmark.svg.png" alt="">
+                <h2>Hojas de estilo en cascada</h2>
+                <p>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado​</p>
+                <a href="CSS.html"><button>Leer</button></a>
+            </aside>
+            <aside>
+                <img src="http://javadesde0.com/wp-content/uploads/480px-Unofficial_JavaScript_logo_2.svg_.png" alt="">
+                <h2>JavaScript</h2>
+                <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
+                <a href="JS.html"><button>Leer</button></a>
+            </aside>
+        </div>
+    </div>
+    <div class="container-footer">
+        <footer id="footer">
+            <div class="redes-footer">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/81/81341.png" class="icono-footer facebook" alt=""></a>
+                <a href="#"><img src="https://cdn.icon-icons.com/icons2/1995/PNG/512/instagram_internet_media_network_social_icon_123258.png" class="icono-footer instagram" alt=""></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/39/39552.png" class="icono-footer twitter" alt=""></a>
+            </div>
+            <hr>
+            <h4>Todos los derechos reservados.</h4>
+        </footer>
+    </div>
+    
+
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <img src="https://img.freepik.com/vector-gratis/asistente-linea-ayuda-al-usuario-preguntas-frecuentes-personaje-dibujos-animados-trabajador-centro-llamadas-mujer-que-trabaja-linea-directa_335657-2336.jpg?size=338&ext=jpg" class="modal-img">
+            <h2 class="modal-tittle">Encontraste algun problema?</h2>
+            <p class="modal-p">Hazmelo saber de inmediato!</p>
+            <p>Correo Personal: alanma407@hotmail.com</p>
+            <p>Correo Laboral: Lorem</p>
+            <p>Telefono: Lorem</p>
+            <a href="#" class="modal-close" id="modal-close">Cerrar</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
